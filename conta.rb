@@ -1,4 +1,6 @@
-class Conta
+  require_relative 'cliente'
+  
+  class Conta
     attr_reader :numero, :tiitulo
     attr_accessor :saldo
 
